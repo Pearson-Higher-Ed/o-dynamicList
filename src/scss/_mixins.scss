@@ -1,0 +1,13 @@
+////
+/// @group o-dynamicList
+/// @link https://origami.pearsoned.com/registry/components/o-dynamicList
+////
+
+/// Hello world
+///
+/// @param {String} $who [world]
+@mixin oComponentBlueprintHello($who: world) {
+	.foo {
+		content: 'Hello, #{$who}!';
+	}
+}

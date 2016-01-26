@@ -1,0 +1,52 @@
+
+.header{
+  padding-top: 0.5em;
+  text-align: center;
+  font-weight: bold;
+  font-family: HelveticaNeue;
+}
+
+.mainContainer{
+  background-color: white;
+  width:18.75em;
+}
+
+.listContainer{
+	width:auto;
+	height:auto;
+	padding: 0.625em 0.625em 0.625em 0.625em;
+	background-color: white;
+}
+
+.listItemHeader{
+  padding-top: 1.0625em;
+  font-family: HelveticaNeue;
+  padding-left: 0.25em;
+  font-weight: bold;
+}
+
+.listItem{
+  margin:0.3125em 0em 0.3125em 0em;
+  padding: 0.3125em 0.3125em 0.3125em 0.3125em;
+	width: auto;
+	height: 2.5em;
+	background-color: darken(#ffffff, 5%);
+}
+
+.listItemTopLeft{
+  font-family: HelveticaNeue;
+  float:left;
+}
+
+.listItemTopRight{
+  font-family: HelveticaNeue;
+  float:right;
+}
+
+.listItemBottom{
+  font-family: HelveticaNeue;
+  font-size: small;
+  padding: 0.125em 0.125em 0.125em 0.125em;
+  margin-top:1.5em;
+  overflow:hidden;
+}

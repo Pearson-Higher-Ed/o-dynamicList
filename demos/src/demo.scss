@@ -1,0 +1,10 @@
+$o-assets-global-path: '/bower_components/';
+$o-dynamicList-is-silent: false;
+
+@import '../../main';
+
+
+body{
+  margin: 10px 10px 10px 10px;
+  background-color: lightBlue;
+}
